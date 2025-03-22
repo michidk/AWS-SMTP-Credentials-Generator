@@ -2,24 +2,24 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A modern web application that helps you generate SMTP credentials and connection details for Amazon Simple Email Service (AWS SES). This tool simplifies the process of creating and managing SMTP credentials for your AWS SES email sending needs.
+A web application that helps you generate SMTP credentials and connection details for Amazon Simple Email Service (AWS SES).
 
 ![AWS SMTP Credentials Generator Screenshot](.github/images/screenshot.png)
 
 ## Features
 
-- 🔐 Generate secure SMTP credentials from AWS IAM credentials
-- 📧 Get ready-to-use SMTP connection details
-- 🎨 Modern and intuitive user interface
-- 🌐 Works entirely in your browser - no data sent to external servers
-- 🔒 Secure credential handling
+- Generate SMTP credentials from AWS IAM credentials
+- Get ready-to-use SMTP connection details
+- Works entirely in your browser - no data sent to external servers
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- Bun (latest version)
+- Node.js
+- Bun
+
+Or just use the included devcontainer.
 
 ### Installation
 
