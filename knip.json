@@ -1,0 +1,43 @@
+{
+    "$schema": "https://unpkg.com/knip@latest/schema.json",
+    "entry": [
+        "src/app/**/*.{ts,tsx}",
+        "src/pages/**/*.{ts,tsx}",
+        "src/components/ui/**/*.{ts,tsx}"
+    ],
+    "project": [
+        "src/**/*.{ts,tsx}"
+    ],
+    "ignoreDependencies": [
+        "@biomejs/biome",
+        "typescript",
+        "postcss",
+        "autoprefixer",
+        "tailwindcss"
+    ],
+    "ignoreBinaries": [
+        "biome"
+    ],
+    "ignore": [
+        "**/*.d.ts"
+    ],
+    "ignoreExportsUsedInFile": true,
+    "next": {
+        "entry": [
+            "next.config.{js,ts,mjs,cjs}",
+            "src/middleware.{js,ts}",
+            "src/app/**/{page,layout,loading,error,not-found,default,route,template}.{js,jsx,ts,tsx}",
+            "src/app/**/head.{js,jsx,ts,tsx}",
+            "src/app/**/sitemap.{js,ts}",
+            "src/app/**/robots.{js,ts}",
+            "src/app/**/manifest.{js,ts}",
+            "src/app/**/icon.{js,jsx,ts,tsx}",
+            "src/app/**/opengraph-image.{js,jsx,ts,tsx}",
+            "src/app/**/apple-icon.{js,jsx,ts,tsx}",
+            "src/app/**/favicon.{js,jsx,ts,tsx}"
+        ],
+        "project": [
+            "src/**/*.{js,jsx,ts,tsx}"
+        ]
+    }
+}
