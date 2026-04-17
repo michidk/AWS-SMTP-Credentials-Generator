@@ -33,6 +33,6 @@
     "@types/react-dom": "^19",
     "knip": "^5.46.0",
     "tailwindcss": "^4",
-    "typescript": "^5.8.2"
+    "typescript": "^6.0.0"
   }
 }
