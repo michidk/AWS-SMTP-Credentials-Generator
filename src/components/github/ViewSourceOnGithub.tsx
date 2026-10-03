@@ -1,5 +1,5 @@
 import { GITHUB_URL } from "@/constants";
-import { Github } from "lucide-react";
+import { CodeXml } from "lucide-react";
 
 export function ViewSourceOnGithub() {
 	return (
@@ -10,7 +10,7 @@ export function ViewSourceOnGithub() {
 				rel="noopener noreferrer"
 				className="flex items-center justify-center gap-2 hover:text-gray-700 transition-colors"
 			>
-				<Github className="h-4 w-4" />
+				<CodeXml className="h-4 w-4" />
 				<span>View source code on GitHub</span>
 			</a>
 		</div>
