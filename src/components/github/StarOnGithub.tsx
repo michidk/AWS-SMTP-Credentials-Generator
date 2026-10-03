@@ -1,5 +1,5 @@
 import { GITHUB_URL } from "@/constants";
-import { Github, Star } from "lucide-react";
+import { CodeXml, Star } from "lucide-react";
 
 export function StarOnGithub() {
 	return (
@@ -11,7 +11,7 @@ export function StarOnGithub() {
 		>
 			<Star className="h-4 w-4 transition-all duration-300 group-hover:scale-125 group-hover:rotate-[20deg] group-hover:text-yellow-300" />
 			<span>Star me on GitHub</span>
-			<Github className="h-4 w-4 ml-1" />
+			<CodeXml className="h-4 w-4 ml-1" />
 		</a>
 	);
 }
